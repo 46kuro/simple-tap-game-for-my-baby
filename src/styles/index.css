@@ -1,0 +1,102 @@
+@import './fonts.css';
+@import './tailwind.css';
+@import './theme.css';
+
+/* Wiggle animation for game objects */
+@keyframes wiggle {
+  0%, 100% {
+    transform: rotate(-3deg) scale(1);
+  }
+  50% {
+    transform: rotate(3deg) scale(1.05);
+  }
+}
+
+/* Particle explosion animations */
+@keyframes particle-0 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-30px, -30px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-1 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(30px, -30px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-2 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-30px, 30px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-3 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(30px, 30px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-4 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, -40px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-5 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(0, 40px) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-6 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(-40px, 0) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-7 {
+  0% {
+    transform: translate(0, 0) scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translate(40px, 0) scale(0.3);
+    opacity: 0;
+  }
+}
