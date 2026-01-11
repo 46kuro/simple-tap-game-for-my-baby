@@ -122,10 +122,10 @@ export default function App() {
       });
     };
 
-    // Slower spawn rate: 900-1300ms
+    // Slower spawn rate: 1500-2000ms
     spawnTimerRef.current = setInterval(() => {
       spawnObject();
-    }, 900 + Math.random() * 400);
+    }, 1500 + Math.random() * 500);
 
     // Auto-remove objects after 3 seconds (longer display time)
     const removeTimer = setInterval(() => {
